@@ -54,4 +54,3 @@ if __name__ == '__main__':
             break
 
     print(f'\ntheta: {theta.reshape(-1)}')
-    print(X@theta)

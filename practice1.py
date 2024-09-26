@@ -43,7 +43,7 @@ if __name__ == '__main__':
 
     # Display the plot
     fig, ax = plt.subplots()
-    ax.set(xlabel='Square Feet', ylabel='House Price ($1000s)')
+    ax.set(xlabel='Study time(h)', ylabel='Exam score')
     ax.axis([0, 500, 0, 100])
     ax.scatter(x, y, s=100, facecolor='navy')
     x = np.arange(0, 500, 1)
